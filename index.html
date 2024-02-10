@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Splashcard</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/pfp.png">
+
+    <meta content="Splashcard.me" property="og:title" />
+    <meta content="My funky website with links to my work, bio and more." property="og:description" />
+    <meta content="index.html" property="og:url" />
+    <meta content="./assets/pfp.jpg" property="og:image" />
+    <meta content="#24f4ff" data-react-helmet="true" name="theme-color" />
+
+</head>
+<body>
+    
+    <div class="container">
+        <p id="header">Splashcard</p>
+        <button id="bio" onclick="open('./bio/index.html')"><i class="fa-solid fa-user"></i> Bio</button>
+        <button id="proj" onclick="openInNewTab('https://github.com/Splashcard04')"><i class="fa-brands fa-github"></i> Projects</button>
+        <button id="yt" onclick="openInNewTab('https://www.youtube.com/channel/UCJpIzo8OzpC-dvKfjB5NAUw')"><i class="fa-brands fa-youtube"></i> Youtube</button>
+        <button id="spot" onclick="openInNewTab('https://open.spotify.com/artist/1bjRjKsi2APksgdHwZUKKJ?si=1b6aae66dfe44fa3')"><i class="fa-brands fa-spotify"></i> Spotify</button>
+        <button id="contact" onclick="openInNewTab('./contact/index.html')"><i class="fa-solid fa-address-book"></i> Contact</button>
+    </div>
+
+</body>
+</html>
